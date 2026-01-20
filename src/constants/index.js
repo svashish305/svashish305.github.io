@@ -112,12 +112,22 @@ export const skills = [
 ];
 
 export const experiences = [
+	{
+    title: "AI First Software Engineer III",
+    company_name: "Trilogy",
+    icon: trilogy,
+    iconBg: "#383E56",
+    date: "Jan 2026 - Present",
+    points: [
+			"Built multi-agent workflow for content creation assistance for Contently AI to replace form-based legacy AI Writer driving user retention up by 70%",
+		],
+  },
   {
     title: "AI First Software Engineer II",
     company_name: "Trilogy",
     icon: trilogy,
     iconBg: "#383E56",
-    date: "May 2024 - Present",
+    date: "May 2024 - Jan 2026",
     points: [
       "Achieved a 20% reduction in monthly AWS costs by conducting a thorough analysis of redundant resources",
       "Enhanced data integrity and recovery processes by deploying AWS Batch jobs, resulting in a 30% reduction in data discrepancy resolution time after DB failovers",
